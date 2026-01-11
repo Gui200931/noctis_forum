@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+<header>
+    <a href="index.html" class="voltar">⬅ Voltar</a>
+    <h1 id="tituloHistoria"></h1>
+</header>
+<main>
+    <p id="textoHistoria" class="historia"></p>
+    <div id="midiaArea"></div>
+    <hr>
+    <section>
+        <h2>💬 Comentários</h2>
+        <textarea id="comentario" placeholder="Escreva um comentário..."></textarea>
+        <button onclick="comentar()">Enviar</button>
+        <div id="listaComentarios"></div>
+    </section>
+</main>
+<script src="scripts/app.js"></script>
+</body>
+</html>

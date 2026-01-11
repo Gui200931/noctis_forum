@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark_Net-2001- Terror</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+<header>
+    <h1>Dark_Net-2001</h1>
+    <p>Histórias, relatos e conversas sobre o desconhecido,conspirações,paranormal.</p>
+</header>
+<main>
+    <section class="novo-post">
+        <h2>Postar nova história</h2>
+        <input id="titulo" type="text" placeholder="Título da história">
+        <textarea id="texto" placeholder="Escreva sua história aqui..."></textarea>
+        <input type="file" id="midia" accept="image/*,video/mp4">
+        <button onclick="postar()">Publicar</button>
+    </section>
+    <h2>📜 Histórias publicadas</h2>
+    <div id="posts"></div>
+</main>
+<script src="scripts/app.js"></script>
+</body>
+</html>
