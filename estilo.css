@@ -1,0 +1,64 @@
+body {
+    background: #000;
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+h1 {
+    margin: 0;
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #222;
+    border: 1px solid red;
+    color: #fff;
+}
+button {
+    background: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+.post {
+    background: #111;
+    border: 1px solid red;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.voltar {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+.comentario {
+    background: #111;
+    padding: 10px;
+    border-left: 3px solid red;
+    margin-top: 10px;
+}
+.midia {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    margin: 20px 0;
+    border: 1px solid red;
+    background: #111;
+}
